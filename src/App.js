@@ -11,6 +11,7 @@ function App() {
     <div className="App">
      <Layout/>
       <Switch>
+        
         <Route exact path="/" component={AppLayout}></Route>
         <PrivateRoute exact path="/app" Component={LandingPAge}/>
         <PrivateRoute exact path="/user" Component={User}/>
